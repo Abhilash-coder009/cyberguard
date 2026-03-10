@@ -1,0 +1,164 @@
+﻿# INTERNET ATTACKS AND PROTECTION
+# ===============================
+
+## TYPES OF INTERNET ATTACKS
+=============================
+
+### DDoS (Distributed Denial of Service) Attacks
+Multiple compromised systems flood a target with traffic, making it unavailable.
+- Volumetric attacks: Overwhelm bandwidth
+- Protocol attacks: Consume server resources
+- Application layer attacks: Crash web servers
+
+### Phishing Attacks
+Fake emails/messages trick users into revealing sensitive information.
+- Spear phishing: Targeted at specific individuals
+- Whaling: Targets high-profile executives
+- Clone phishing: Replicates legitimate emails
+- Voice phishing (Vishing): Phone call scams
+- SMS phishing (Smishing): Text message scams
+
+### Malware and Ransomware Distribution
+Malicious software delivered through various vectors.
+- Email attachments
+- Malicious downloads
+- Infected websites
+- USB drives
+- Drive-by downloads
+
+### Man-in-the-Middle (MitM) Attacks
+Attacker intercepts communication between two parties.
+- Wi-Fi eavesdropping
+- Session hijacking
+- HTTPS spoofing
+- SSL stripping
+- ARP poisoning
+
+### DNS Hijacking
+Redirecting DNS queries to malicious sites.
+- Router compromise
+- DNS cache poisoning
+- Malware modification of hosts file
+- Rogue DNS servers
+
+### Session Hijacking
+Taking over authenticated user sessions.
+- Cookie theft
+- Session fixation
+- Cross-site scripting (XSS)
+- Session sidejacking
+
+### SQL Injection
+Inserting malicious code into database queries.
+- In-band SQLi
+- Inferential SQLi
+- Out-of-band SQLi
+
+### Cross-Site Scripting (XSS)
+Injecting malicious scripts into trusted websites.
+- Stored XSS
+- Reflected XSS
+- DOM-based XSS
+
+### Zero-Day Exploits
+Attacks on unknown vulnerabilities before patches exist.
+- Vulnerability research
+- Exploit development
+- Targeted attacks
+- APT groups
+
+### Brute Force Attacks
+Trying multiple passwords until correct one found.
+- Dictionary attacks
+- Credential stuffing
+- Password spraying
+- Hybrid attacks
+
+## PROTECTION MEASURES
+======================
+
+### Password Security
+- Use strong, unique passwords (12+ characters)
+- Use a password manager (Bitwarden, 1Password, LastPass)
+- Enable two-factor authentication (2FA/MFA)
+- Never reuse passwords across sites
+- Change default passwords immediately
+
+### Software Updates
+- Keep operating system updated
+- Enable automatic updates
+- Update all applications regularly
+- Patch known vulnerabilities promptly
+- Remove outdated/unused software
+
+### Network Security
+- Use a firewall (hardware and software)
+- Secure Wi-Fi with WPA2/WPA3
+- Disable WPS on router
+- Change default router password
+- Use VPN on public Wi-Fi
+- Monitor network for unusual activity
+
+### Email Safety
+- Be cautious with unexpected emails
+- Don't click suspicious links
+- Don't open unknown attachments
+- Verify sender email addresses
+- Hover over links before clicking
+- Use spam filters
+
+### Web Browsing Safety
+- Use HTTPS websites (look for padlock)
+- Install ad-blockers
+- Avoid downloading from untrusted sites
+- Be wary of pop-ups
+- Clear browser data regularly
+- Use private/incognito for sensitive sites
+
+### Device Security
+- Install antivirus/anti-malware software
+- Enable device encryption
+- Use screen lock with strong PIN
+- Enable remote wipe capability
+- Keep Bluetooth off when not in use
+- Don't jailbreak/root devices
+
+### Data Protection
+- Regular backups (3-2-1 rule)
+- Encrypt sensitive files
+- Use secure cloud storage
+- Be careful what you share online
+- Monitor accounts for suspicious activity
+
+### Account Security
+- Enable login alerts
+- Review connected apps regularly
+- Check account activity logs
+- Remove unused accounts
+- Use different emails for different services
+
+## INCIDENT RESPONSE
+====================
+
+### If You Suspect an Attack:
+1. Disconnect from internet immediately
+2. Change passwords from clean device
+3. Run antivirus/anti-malware scan
+4. Check for unauthorized transactions
+5. Enable additional security measures
+6. Report to relevant authorities
+7. Restore from clean backups if needed
+
+### Contact Information:
+- Local police cybercrime unit
+- Bank fraud department
+- Identity theft resources
+- Cybersecurity professionals
+
+## ADDITIONAL RESOURCES
+=======================
+- CISA (Cybersecurity & Infrastructure Security Agency)
+- NIST Cybersecurity Framework
+- OWASP (Open Web Application Security Project)
+- SANS Institute
+- Local cybersecurity groups

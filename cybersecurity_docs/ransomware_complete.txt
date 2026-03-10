@@ -1,0 +1,131 @@
+﻿# RANSOMWARE COMPLETE GUIDE
+# =========================
+
+## WHAT IS RANSOMWARE?
+=======================
+Ransomware is a type of malicious software (malware) that threatens to publish or blocks access to data or a computer system until the victim pays a ransom demand to the attacker.
+
+## HOW RANSOMWARE SPREADS
+==========================
+Common infection methods:
+• Phishing emails with malicious attachments
+• Malicious links in messages
+• Drive-by downloads from compromised websites
+• Remote Desktop Protocol (RDP) brute force attacks
+• Malicious advertisements (malvertising)
+• USB drives
+• Software vulnerabilities
+
+## RANSOMWARE PREVENTION
+========================
+### Backups (Most Important!)
+- Follow the 3-2-1 backup rule: 3 copies, 2 different media, 1 off-site
+- Test restores regularly
+- Keep backups disconnected after backup completes
+- Use immutable backups if possible
+
+### Software Updates
+- Enable automatic updates for OS and software
+- Patch known vulnerabilities promptly
+- Remove outdated/unused software
+
+### Email Security
+- Train users to identify phishing
+- Use email filtering solutions
+- Block suspicious attachments
+- Implement DMARC, SPF, DKIM
+
+### Access Control
+- Use least privilege principle
+- Enable multi-factor authentication (MFA)
+- Disable unnecessary RDP access
+- Use strong, unique passwords
+
+### Endpoint Protection
+- Deploy EDR (Endpoint Detection and Response)
+- Enable controlled folder access
+- Use application whitelisting
+- Block malicious scripts (PowerShell, macros)
+
+## RANSOMWARE DETECTION
+=======================
+Indicators of compromise:
+• Unusual file extensions (.encrypted, .locked)
+• Ransom notes (README.txt, HOW_TO_DECRYPT.txt)
+• High CPU/disk activity
+• Mass file renames
+• Shadow copy deletion
+• Event log clearing
+
+## WHAT TO DO IF INFECTED
+=========================
+### Immediate Steps:
+1. Disconnect infected system from network immediately
+2. Power off unaffected systems to prevent spread
+3. DO NOT pay the ransom (no guarantee, funds criminals)
+4. Take photos of ransom notes
+5. Identify the ransomware variant
+6. Check for free decryption tools (No More Ransom project)
+
+### Containment:
+- Isolate network segments
+- Block C2 communications at firewall
+- Reset all passwords from clean system
+- Preserve evidence
+
+### Recovery:
+- Restore from clean backups
+- Scan all files before restoring
+- Patch exploited vulnerabilities
+- Monitor for re-infection
+
+## RANSOMWARE STATISTICS
+========================
+• Average downtime after attack: 22 days
+• Average recovery cost: .85 million
+• 66% of organizations hit by ransomware
+• 75% of attacks involve data exfiltration
+• Manufacturing most targeted sector
+• RDP most common entry point (35%)
+
+## FAMOUS RANSOMWARE FAMILIES
+=============================
+• LockBit - Most active RaaS operation
+• BlackCat (ALPHV) - Written in Rust
+• Cl0p - Known for MFT exploits
+• REvil - Notorious double extortion group
+• Ryuk - Targeted enterprise
+• WannaCry - 2017 global attack
+• NotPetya - Destructive wiper disguised as ransomware
+
+## FREE DECRYPTION TOOLS
+========================
+• No More Ransom Project (nomoreransom.org)
+• Emsisoft Decryptor
+• Kaspersky Ransomware Decryptor
+• Avast Ransomware Decryption Tools
+• Trend Micro Ransomware Decryptor
+
+## REPORTING RANSOMWARE
+=======================
+• FBI Internet Crime Complaint Center (IC3)
+• CISA (Cybersecurity & Infrastructure Security Agency)
+• Local law enforcement
+• National cyber security centers
+
+## RANSOMWARE FAQ
+=================
+Q: Should I pay the ransom?
+A: No! Paying encourages more attacks and doesn't guarantee data recovery.
+
+Q: Can ransomware spread to backups?
+A: Yes, if backups are connected. Use the 3-2-1 rule with offline backups.
+
+Q: How long does recovery take?
+A: Average is 22 days, but can take weeks or months.
+
+Q: Does antivirus stop ransomware?
+A: Modern EDR solutions help, but no single solution is 100% effective.
+
+Q: Can I decrypt files without paying?
+A: Sometimes - check No More Ransom project for free tools.

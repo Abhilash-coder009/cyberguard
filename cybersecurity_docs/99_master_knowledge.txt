@@ -1,0 +1,454 @@
+﻿# COMPREHENSIVE CYBERSECURITY KNOWLEDGE BASE
+# ==========================================
+# Source: Multiple cybersecurity resources
+# Generated: 03/08/2026 18:24:32
+# 
+# This file contains consolidated cybersecurity knowledge
+# for your RAG chatbot.
+
+===========================================================
+NETWORK SECURITY FUNDAMENTALS
+===========================================================
+Firewall Rules:
+- Default deny policy for all traffic
+- Allow only necessary ports
+- Stateful inspection required
+- Log all denied attempts
+
+Network Segmentation:
+- DMZ for public servers
+- Internal network for employees
+- Management network isolated
+- Guest network separated
+
+VPN Security:
+- Use strong encryption (AES-256)
+- Require MFA for VPN access
+- Disable split tunneling
+- Regular security audits
+
+IDS/IPS:
+- Deploy at network perimeter
+- Signature-based detection
+- Anomaly-based detection
+- Regular rule updates
+
+===========================================================
+ENDPOINT SECURITY
+===========================================================
+Antivirus/Antimalware:
+- Real-time protection enabled
+- Daily signature updates
+- Weekly full scans
+- Cloud-based protection
+
+EDR Solutions:
+- Process monitoring
+- Network connection tracking
+- Behavioral analysis
+- Automated response
+
+Application Control:
+- Whitelist approved apps
+- Block unauthorized software
+- Script control
+- USB device control
+
+===========================================================
+CLOUD SECURITY
+===========================================================
+AWS Security:
+- Enable CloudTrail
+- Use IAM roles
+- Encrypt S3 buckets
+- Security groups with least privilege
+
+Azure Security:
+- Enable Defender for Cloud
+- Use Managed Identities
+- Network Security Groups
+- Key Vault for secrets
+
+Google Cloud:
+- VPC Service Controls
+- Cloud Armor
+- CMEK encryption
+- IAM best practices
+
+===========================================================
+IDENTITY & ACCESS MANAGEMENT
+===========================================================
+Authentication:
+- Passwordless options (FIDO2)
+- MFA for all users
+- SSO implementation
+- Biometric options
+
+Authorization:
+- Role-based access control
+- Attribute-based access control
+- Least privilege principle
+- Just-in-time access
+
+Password Policy:
+- Minimum 12 characters
+- Complexity requirements
+- No password reuse
+- Regular rotation
+
+===========================================================
+INCIDENT RESPONSE
+===========================================================
+Preparation:
+- Incident response team
+- Communication plan
+- Tools and access
+- Regular drills
+
+Detection:
+- SIEM alerts
+- Threat intelligence
+- User reports
+- Anomaly detection
+
+Analysis:
+- Scope determination
+- Evidence preservation
+- Root cause analysis
+- Impact assessment
+
+Containment:
+- Isolate affected systems
+- Block malicious IPs
+- Take systems offline
+- Implement workarounds
+
+Eradication:
+- Remove malware
+- Patch vulnerabilities
+- Reset credentials
+- Clean systems
+
+Recovery:
+- Restore from backups
+- Monitor closely
+- Return to operations
+- Document lessons
+
+===========================================================
+THREAT INTELLIGENCE
+===========================================================
+Common Threats:
+- Ransomware (LockBit, BlackCat)
+- Phishing (Spear, Whaling)
+- DDoS attacks
+- Zero-day exploits
+- Supply chain attacks
+- Insider threats
+
+Indicators of Compromise:
+- File hashes (MD5, SHA256)
+- IP addresses
+- Domain names
+- Registry keys
+- Process names
+- Network patterns
+
+===========================================================
+APPLICATION SECURITY
+===========================================================
+Secure SDLC:
+- Threat modeling
+- Static code analysis (SAST)
+- Dynamic scanning (DAST)
+- Dependency scanning
+- Security testing
+
+OWASP Top 10:
+1. Broken Access Control
+2. Cryptographic Failures
+3. Injection
+4. Insecure Design
+5. Security Misconfiguration
+6. Vulnerable Components
+7. Authentication Failures
+8. Software Integrity
+9. Logging Failures
+10. SSRF
+
+===========================================================
+COMPLIANCE FRAMEWORKS
+===========================================================
+NIST Cybersecurity Framework:
+- Identify: Asset management, risk assessment
+- Protect: Access control, awareness
+- Detect: Monitoring, anomalies
+- Respond: Incident handling
+- Recover: Restoration, improvements
+
+ISO 27001:
+- Information security policies
+- Asset management
+- Access control
+- Cryptography
+- Physical security
+- Operations security
+- Communications
+- Incident management
+- Business continuity
+- Compliance
+
+PCI DSS v4.0:
+- Build secure networks
+- Protect cardholder data
+- Vulnerability management
+- Access control
+- Network monitoring
+- Security policies
+
+===========================================================
+SECURITY TOOLS
+===========================================================
+Open Source:
+- Wireshark (packet analysis)
+- Nmap (network scanning)
+- Metasploit (pen testing)
+- Snort/Suricata (IDS/IPS)
+- Osquery (endpoint)
+- TheHive (incident response)
+- MISP (threat intel)
+- Velociraptor (forensics)
+
+Commercial:
+- Splunk (SIEM)
+- CrowdStrike (EDR)
+- Palo Alto (firewalls)
+- Tenable (vulnerability)
+- Proofpoint (email security)
+- Darktrace (AI security)
+- SentinelOne (EDR)
+
+===========================================================
+EMAIL SECURITY
+===========================================================
+Protection:
+- SPF, DKIM, DMARC
+- Email filtering
+- Attachment sandboxing
+- URL protection
+- Anti-spoofing
+- Encryption (TLS)
+
+Phishing Prevention:
+- User training
+- Simulated phishing
+- Reporting buttons
+- Browser isolation
+- MFA requirement
+
+===========================================================
+MOBILE SECURITY
+===========================================================
+MDM/EMM:
+- Device enrollment
+- Compliance policies
+- App management
+- Remote wipe
+- Containerization
+
+Best Practices:
+- App vetting
+- OS updates
+- Device encryption
+- No jailbreak/root
+- VPN requirement
+
+===========================================================
+DATA SECURITY
+===========================================================
+Data Classification:
+- Public
+- Internal
+- Confidential
+- Restricted
+- Secret
+
+DLP Controls:
+- Data discovery
+- Policy enforcement
+- Encryption
+- Access controls
+- Monitoring
+- Incident response
+
+Backup Strategy:
+- 3-2-1 rule
+- Daily backups
+- Weekly full backups
+- Monthly archives
+- Regular testing
+- Immutable backups
+
+===========================================================
+WEB APPLICATION FIREWALL
+===========================================================
+Protection:
+- SQL injection prevention
+- XSS protection
+- CSRF protection
+- Rate limiting
+- Bot mitigation
+- Virtual patching
+
+Rules:
+- OWASP Core Rule Set
+- Custom rules
+- Positive security model
+- Negative security model
+- Geo-blocking
+- IP reputation
+
+===========================================================
+ZERO TRUST ARCHITECTURE
+===========================================================
+Principles:
+- Never trust, always verify
+- Least privilege access
+- Micro-segmentation
+- Continuous monitoring
+- Assume breach
+
+Components:
+- Identity and access
+- Device trust
+- Network security
+- Application security
+- Data security
+- Analytics
+
+===========================================================
+DEVSECOPS
+===========================================================
+CI/CD Security:
+- Secure code review
+- SAST/DAST integration
+- Dependency scanning
+- Container scanning
+- Infrastructure as code
+- Compliance as code
+
+Practices:
+- Shift left security
+- Automated testing
+- Security as code
+- Continuous monitoring
+- Immutable infrastructure
+
+===========================================================
+IOT SECURITY
+===========================================================
+Challenges:
+- Limited resources
+- Diverse protocols
+- Physical access
+- Legacy devices
+- Firmware updates
+
+Controls:
+- Network segmentation
+- Device authentication
+- Encrypted communication
+- Secure boot
+- Regular updates
+- Monitoring
+
+===========================================================
+SOC OPERATIONS
+===========================================================
+Tiers:
+- Tier 1: Triage
+- Tier 2: Investigation
+- Tier 3: Threat hunting
+- Tier 4: Threat intel
+
+Metrics:
+- Mean time to detect
+- Mean time to respond
+- Alert volume
+- False positive rate
+- Coverage gaps
+
+===========================================================
+THREAT HUNTING
+===========================================================
+Methodologies:
+- Hypothesis-driven
+- IOC-based
+- TTP-based
+- Analytics-driven
+- Machine learning
+
+Data Sources:
+- Endpoint logs
+- Network logs
+- Application logs
+- Cloud logs
+- Threat intel
+
+===========================================================
+PENETRATION TESTING
+===========================================================
+Phases:
+1. Reconnaissance
+2. Scanning
+3. Exploitation
+4. Post-exploitation
+5. Reporting
+
+Types:
+- Black box
+- White box
+- Grey box
+- External
+- Internal
+- Web app
+- Mobile
+- Wireless
+- Physical
+
+===========================================================
+FORENSICS
+===========================================================
+Process:
+1. Identification
+2. Preservation
+3. Collection
+4. Examination
+5. Analysis
+6. Reporting
+
+Evidence Types:
+- Disk images
+- Memory dumps
+- Network captures
+- Log files
+- Mobile devices
+- Cloud data
+
+===========================================================
+BUSINESS CONTINUITY
+===========================================================
+Components:
+- Business impact analysis
+- Risk assessment
+- Recovery strategies
+- Plan development
+- Testing
+- Maintenance
+
+Recovery:
+- Recovery Time Objective
+- Recovery Point Objective
+- Disaster recovery
+- Crisis management
+- Communication plans

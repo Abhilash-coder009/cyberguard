@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Logs
+bot_logs.txt
+*.log
+
+# ChromaDB
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models
+*.gguf
+models/
+temp_downloads/

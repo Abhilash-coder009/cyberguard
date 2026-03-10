@@ -1,0 +1,303 @@
+﻿# COMPREHENSIVE RANSOMWARE GUIDE
+# ===============================
+
+## WHAT IS RANSOMWARE?
+=======================
+Ransomware is a type of malware that encrypts files or locks systems and demands payment for decryption/access.
+
+Key Characteristics:
+- File encryption using strong cryptography
+- Ransom note with payment instructions
+- Payment typically demanded in cryptocurrency
+- Time pressure with deadlines
+- Threat to leak data (double extortion)
+
+## TYPES OF RANSOMWARE
+=======================
+Crypto Ransomware:
+- Encrypts files and data
+- Leaves system operational
+- Demands payment for decryption key
+- Examples: LockBit, BlackCat, REvil
+
+Locker Ransomware:
+- Locks user out of system
+- Doesn't encrypt files
+- Shows lock screen with demand
+- Examples: Police-themed ransomware
+
+Double Extortion:
+- Encrypts files AND steals data
+- Threatens to leak data if not paid
+- Currently most common type
+- Examples: Maze, Sodinokibi
+
+Ransomware-as-a-Service (RaaS):
+- Affiliate model
+- Developers create ransomware
+- Affiliates distribute and get cut
+- Examples: LockBit, BlackCat, Conti
+
+## MAJOR RANSOMWARE FAMILIES
+=============================
+LockBit:
+- Most active ransomware in 2023-2024
+- RaaS model
+- Fast encryption
+- Extortion-focused
+- Version 3.0 (LockBit Black)
+
+BlackCat (ALPHV):
+- Written in Rust
+- Cross-platform (Windows/Linux)
+- Highly customizable
+- Affiliate program
+
+Cl0p:
+- Targets MFT exploits
+- Known for large-scale attacks
+- Uses double extortion
+- GoAnywhere MFT campaign
+
+Royal/BlackSuit:
+- Targets enterprise
+- Manual attacks
+- Evades detection
+- Custom encryption
+
+Akira:
+- Targets Windows and Linux
+- Fast encryption
+- Data exfiltration
+- RaaS operation
+
+BianLian:
+- Written in Go
+- Cross-platform
+- Focuses on exfiltration
+- Can deploy backdoors
+
+## RANSOMWARE ATTACK PHASES
+============================
+Phase 1: Initial Access
+- Phishing emails
+- RDP brute force
+- VPN vulnerabilities
+- Drive-by downloads
+- Malicious ads
+- Supply chain attacks
+
+Phase 2: Persistence
+- Create scheduled tasks
+- Add registry keys
+- Install services
+- Create user accounts
+- Deploy backdoors
+
+Phase 3: Privilege Escalation
+- Exploit local vulnerabilities
+- Dump credentials
+- Pass-the-hash attacks
+- Use stolen tokens
+- Exploit misconfigurations
+
+Phase 4: Defense Evasion
+- Disable antivirus/EDR
+- Stop security services
+- Clear logs
+- Use living-off-the-land binaries
+- Process injection
+
+Phase 5: Credential Access
+- Dump LSASS memory
+- Extract from registry
+- Keylogging
+- Network sniffing
+- Credential harvesting
+
+Phase 6: Discovery
+- Network scanning
+- Domain enumeration
+- Find file shares
+- Identify backups
+- Map network topology
+
+Phase 7: Lateral Movement
+- PSExec/WMI
+- RDP connections
+- SMB file sharing
+- Scheduled tasks
+- Remote services
+
+Phase 8: Collection
+- Identify target files
+- Compress data
+- Prepare for exfiltration
+- Find critical systems
+- Locate backups
+
+Phase 9: Exfiltration
+- Steal sensitive data
+- Use encrypted channels
+- Upload to attacker servers
+- Double extortion prep
+- Remove evidence
+
+Phase 10: Encryption
+- Deploy ransomware
+- Encrypt local files
+- Encrypt network shares
+- Delete shadow copies
+- Disable recovery options
+
+## RANSOMWARE PREVENTION
+=========================
+Technical Controls:
+- Regular patching (prioritize internet-facing systems)
+- Disable RDP or use VPN with MFA
+- Segment networks (isolate critical systems)
+- Implement application whitelisting
+- Use endpoint detection and response (EDR)
+- Deploy email filtering with attachment sandboxing
+- Block malicious macros and scripts
+- Disable unnecessary services
+- Use least privilege access
+- Implement network monitoring
+
+Administrative Controls:
+- Regular security awareness training
+- Phishing simulations
+- Incident response planning
+- Regular tabletop exercises
+- Vendor risk management
+- Insider threat program
+
+## RANSOMWARE DETECTION
+========================
+Indicators:
+- Unusual file extensions (.locked, .encrypted)
+- Ransom notes (README.txt, HOW_TO_DECRYPT.txt)
+- High CPU/disk activity
+- Mass file renames
+- Shadow copy deletion
+- Event log clearing
+- Unusual network connections
+- Registry modifications
+
+Detection Tools:
+- EDR alerts on ransomware behavior
+- SIEM rules for suspicious activity
+- Honeypot files/folders
+- File integrity monitoring
+- Anomaly detection systems
+
+## RANSOMWARE RESPONSE
+=======================
+Immediate Actions:
+1. Isolate affected systems (disconnect network cable)
+2. Power off unaffected systems to prevent spread
+3. Activate incident response team
+4. Preserve evidence (don't reboot affected systems)
+5. Determine scope (identify affected systems/data)
+
+Containment:
+- Block C2 communications at firewall
+- Disable compromised accounts
+- Reset all passwords
+- Isolate network segments
+- Take forensic images
+
+Eradication:
+- Identify initial access vector
+- Remove malware from systems
+- Patch exploited vulnerabilities
+- Clean affected systems (reinstall if necessary)
+- Verify no backdoors remain
+
+Recovery:
+- Restore from clean, offline backups
+- Scan restored files for malware
+- Test systems before returning to production
+- Monitor closely for re-infection
+- Document lessons learned
+
+## BACKUP BEST PRACTICES
+=========================
+3-2-1 Rule:
+- 3 copies of data
+- 2 different media types
+- 1 copy off-site (air-gapped)
+
+Implementation:
+- Daily incremental backups
+- Weekly full backups
+- Test restores regularly
+- Immutable backups (write-once-read-many)
+- Air-gapped backups (disconnected from network)
+- Cloud backups with versioning
+
+## SHOULD YOU PAY?
+===================
+Arguments Against Paying:
+- No guarantee you'll get data back
+- May be targeted again
+- Funds criminal activity
+- Illegal in some jurisdictions
+- Encourages more attacks
+
+Arguments For Paying (business decision):
+- No backups available
+- Critical data with no alternative
+- Cost of downtime > ransom
+- Regulatory requirements
+
+Facts:
+- 80% who pay get attacked again
+- Average ransom payment ~,000
+- Only 65% get all data back
+- FBI advises NOT to pay
+
+## RANSOMWARE STATISTICS
+========================
+- Average downtime: 22 days
+- Average recovery cost: .85M
+- 66% of organizations hit by ransomware
+- 75% of attacks involve data exfiltration
+- Manufacturing most targeted sector
+- RDP most common entry point (35%)
+- Email phishing second most common (30%)
+
+## RANSOMWARE LEGAL & REGULATORY
+=================================
+Reporting Requirements:
+- SEC disclosure (public companies)
+- GDPR breach notification (72 hours)
+- HIPAA breach reporting
+- State data breach laws
+- FBI/CISA reporting
+
+Legal Considerations:
+- OFAC sanctions (can't pay sanctioned groups)
+- Insurance requirements
+- Contractual obligations
+- Regulatory fines
+
+## RANSOMWARE RESOURCES
+========================
+Government:
+- CISA Ransomware Guide
+- FBI Internet Crime Complaint Center
+- No More Ransom Project
+- Europol EC3
+
+Industry:
+- Ransomwhere (ransomware tracker)
+- ID Ransomware (identify ransomware)
+- Ransomware Feed (threat intel)
+- The Ransomware Task Force
+
+Tools:
+- Emsisoft Decryptor (free decryption)
+- No More Ransom decryption tools
+- Kaspersky Ransomware Decryptor
+- Trend Micro Ransomware Decryptor

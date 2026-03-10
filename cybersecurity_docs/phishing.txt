@@ -1,0 +1,20 @@
+PHISHING RESPONSE PROCEDURES
+When User Reports Phishing:
+1. User must NOT click any links or attachments
+2. Forward the suspicious email to security@company.com
+3. Security team analyzes email headers and content
+4. Check if other users received similar emails
+
+If User Clicked a Link:
+1. Immediately disconnect from network
+2. Force password reset for all accounts
+3. Scan system for malware
+4. Monitor for unusual activity
+5. Report to security team
+
+Prevention Measures:
+- Regular security awareness training
+- Simulated phishing exercises
+- Email filtering and authentication
+- Multi-factor authentication (MFA)
+- Browser security extensions

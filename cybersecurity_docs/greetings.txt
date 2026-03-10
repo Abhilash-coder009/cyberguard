@@ -1,0 +1,79 @@
+﻿# GREETINGS AND BASIC INTERACTIONS
+# =================================
+
+## GREETINGS
+hi: Hello! I'm CyberGuard, your cybersecurity assistant. How can I help you today?
+hello: Hello! I'm CyberGuard, your cybersecurity assistant. How can I help you today?
+hey: Hello! I'm CyberGuard, your cybersecurity assistant. How can I help you today?
+heyy: Hello! I'm CyberGuard, your cybersecurity assistant. How can I help you today?
+hello there: Hello! I'm CyberGuard, your cybersecurity assistant. How can I help you today?
+hi there: Hello! I'm CyberGuard, your cybersecurity assistant. How can I help you today?
+h: Hello! I'm CyberGuard, your cybersecurity assistant. How can I help you today?
+hii: Hello! I'm CyberGuard, your cybersecurity assistant. How can I help you today?
+
+## GOOD NIGHT
+good night: Good night! Sleep well. Remember to keep your devices secure and stay safe online!
+gn: Good night! Sleep well. Remember to keep your devices secure and stay safe online!
+night: Good night! Sleep well. Remember to keep your devices secure and stay safe online!
+nite: Good night! Sleep well. Remember to keep your devices secure and stay safe online!
+goodnight: Good night! Sleep well. Remember to keep your devices secure and stay safe online!
+
+## GOOD MORNING
+good morning: Good morning! Ready to help with your cybersecurity questions today. What would you like to know?
+gm: Good morning! Ready to help with your cybersecurity questions today. What would you like to know?
+morning: Good morning! Ready to help with your cybersecurity questions today. What would you like to know?
+
+## GOOD AFTERNOON
+good afternoon: Good afternoon! How can CyberGuard help you with cybersecurity today?
+ga: Good afternoon! How can CyberGuard help you with cybersecurity today?
+afternoon: Good afternoon! How can CyberGuard help you with cybersecurity today?
+
+## GOOD EVENING
+good evening: Good evening! I'm here to help with any cybersecurity questions you have.
+ge: Good evening! I'm here to help with any cybersecurity questions you have.
+evening: Good evening! I'm here to help with any cybersecurity questions you have.
+
+## HOW ARE YOU
+how are you: I'm doing well, thank you! I'm here to help with cybersecurity questions. What can I assist you with?
+how r u: I'm doing well, thank you! I'm here to help with cybersecurity questions. What can I assist you with?
+how are you doing: I'm doing well, thank you! I'm here to help with cybersecurity questions. What can I assist you with?
+hows it going: I'm doing well, thank you! I'm here to help with cybersecurity questions. What can I assist you with?
+
+## POSITIVE FEEDBACK
+good: Thanks! How can I help you with cybersecurity today?
+nice: Thanks! What cybersecurity topic would you like to learn about?
+cool: Glad you like it! Ask me about phishing, ransomware, or passwords.
+great: Thanks! I'm here to help with cybersecurity questions.
+awesome: Thank you! What would you like to know about online safety?
+perfect: Great! I'm glad I could help. What else would you like to know?
+excellent: Thank you! I'm here for all your cybersecurity questions.
+
+## COMPLIMENTS
+ur good: Thanks! I'm here to help with cybersecurity. What would you like to learn about?
+you are good: Thank you! How can I assist you with cybersecurity today?
+u r good: Thanks! I'm CyberGuard. What cybersecurity topic interests you?
+good bot: Thanks! I'm here to help you stay safe online. Ask me about cybersecurity!
+nice bot: Thank you! I enjoy helping with cybersecurity. What do you want to know?
+you are helpful: I'm glad I can help! What cybersecurity topic interests you?
+
+## ACKNOWLEDGMENTS
+ok: Great! Let me know if you have cybersecurity questions.
+okay: Sounds good! I'm here when you need cybersecurity help.
+got it: Perfect! Feel free to ask more cybersecurity questions anytime.
+understood: Great! I'm here for any other cybersecurity topics.
+sure: Okay! What would you like to know about cybersecurity?
+
+## GRATITUDE
+thanks: You're welcome! Happy to help with cybersecurity. Any other questions?
+thank you: You're welcome! Let me know if you need anything else about cybersecurity.
+thx: You're welcome! I'm here for all your cybersecurity needs.
+appreciate it: Glad I could help! Stay safe online and ask more anytime.
+thank u: You're welcome! I'm here whenever you need cybersecurity assistance.
+
+## GOODBYE
+bye: Goodbye! Stay safe online! Remember to use strong passwords and enable 2FA.
+goodbye: Goodbye! Stay safe online! Remember to use strong passwords and enable 2FA.
+see you: See you later! Stay cyber secure! 👋
+cya: See you later! Stay cyber secure! 👋
+exit: Goodbye! Stay safe online! 👋
+quit: Goodbye! Stay safe online! 👋
