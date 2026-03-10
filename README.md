@@ -33,17 +33,17 @@
 ## 📁 Project Structure
 
 cyberguard/
-├── 📁 cybersecurity_docs/           # 📚 ALL KNOWLEDGE FILES
-│   ├── greetings.txt                # Greetings & casual responses
-│   ├── creator_info.txt              # Bot identity & creator info
-│   ├── phishing.txt                  # Phishing information
-│   ├── ransomware_complete.txt       # Ransomware guide
-│   ├── internet_attacks.txt          # DDoS, MitM, etc.
-│   ├── password_policy.txt           # Password security
-│   └── ... (more topic files)
-├── 🤖 chatbot.py                      # 🧠 MAIN BOT CODE
-├── 📝 bot_logs.txt                    # 📊 Conversation history
-├── 📚 requirements.txt                 # Python dependencies
-├── 📖 README.md                        # 📄 This file
-├── 📄 LICENSE                          # ⚖️ MIT License
-└── ⚙️ .gitignore                       # Git ignore rules
+├── 📁 cybersecurity_docs/ # 📚 ALL KNOWLEDGE FILES
+│ ├── greetings.txt # Greetings & casual responses
+│ ├── creator_info.txt # Bot identity & creator info
+│ ├── phishing.txt # Phishing information
+│ ├── ransomware_complete.txt # Ransomware guide
+│ ├── internet_attacks.txt # DDoS, MitM, etc.
+│ ├── password_policy.txt # Password security
+│ └── ... (more topic files)
+├── 🤖 chatbot.py # 🧠 MAIN BOT CODE
+├── 📝 bot_logs.txt # 📊 Conversation history
+├── 📚 requirements.txt # Python dependencies
+├── 📖 README.md # 📄 This file
+├── 📄 LICENSE # ⚖️ MIT License
+└── ⚙️ .gitignore # Git ignore rules
